@@ -307,7 +307,7 @@ namespace EvadePlus
                     {
                         DisplayName = "VoiceOfLight",
                         ChampionName = "AurelionSol",
-                        SpellName = "Voice Of Light",
+                        SpellName = "AurelionSolR",
                         Slot = SpellSlot.R,
                         Delay = 300,
                         Range = 1420,
@@ -315,9 +315,26 @@ namespace EvadePlus
                         MissileSpeed = 4500,
                         DangerValue = 3,
                         IsDangerous = true,
-                        MissileSpellName = "VoiceOfLightMissile"
+                        MissileSpellName = "AurelionSolRMissile"
                     }
                 },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "StarSurge",
+                        ChampionName = "AurelionSol",
+                        Spellname = "AurelionSolQ",
+                        Slot = SpellSlot.Q
+                        Delay = 250,
+                        Range = 1500,
+                        Radius = 180,
+                        MissileSpeed = 850,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "AurelionSolQMissile"
+                    }
+                }
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
