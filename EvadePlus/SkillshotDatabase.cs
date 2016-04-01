@@ -137,6 +137,23 @@ namespace EvadePlus
                 {
                     SpellData = new SpellData
                     {
+                        DisplayName = "DariusCleave",
+                        ChampionName = "Darius",
+                        SpellName = "DariusQ",
+                        Slot = SpellSlt.Q,
+                        Delay = 750,
+                        Range = 0,
+                        Radius = 425 - 50,
+                        MissileSpeed = int.MaxValue,
+                        DangerValue = 3,
+                        IsDangerous = false,
+                        MissileSpellName = "DariusQ"
+                    }
+                },
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
                         DisplayName = "Curse of the Sad Mummy",
                         ChampionName = "Amumu",
                         SpellName = "CurseoftheSadMummy",
@@ -581,21 +598,23 @@ namespace EvadePlus
                 //        MissileSpellName = "DariusAxeGrabCone"
                 //    }
                 //},
-                //new CircularMissileSkillshot //Unknown:SpellType.Arc
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Diana",
-                //        SpellName = "DianaArc",
-                //        Slot = SpellSlot.Q,
-                //        Delay = 250,
-                //        Range = 850,
-                //        Radius = 50,
-                //        MissileSpeed = 1400,
-                //        DangerValue = 3,
-                //        MissileSpellName = "DianaArc"
-                //    }
-                //},
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "DianaArc",
+                        ChampionName = "Diana",
+                        SpellName = "DianaQ",
+                        Slot = SpellSlot.Q,
+                        Delay = 250,
+                        Range = 895,
+                        Radius = 195,
+                        MissileSpeed = 1400,
+                        DangerValue = 3,
+                        IsDangerous = true,
+                        MissileSpellName = "DianaQ"
+                    }
+                },
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
