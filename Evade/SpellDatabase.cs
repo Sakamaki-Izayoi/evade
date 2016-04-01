@@ -431,7 +431,7 @@ namespace Evade
                     SpellName = "RocketGrab",
                     Slot = SpellSlot.Q,
                     Type = SkillShotType.SkillshotMissileLine,
-                    Delay = 250,
+                    Delay = 0,
                     Range = 1050,
                     Radius = 70,
                     MissileSpeed = 1800,
