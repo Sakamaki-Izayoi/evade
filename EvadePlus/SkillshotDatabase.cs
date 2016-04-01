@@ -52,41 +52,6 @@ namespace EvadePlus
                 {
                     SpellData = new SpellData
                     {
-                        DisplayName = "AurelionSolQ",
-                        ChampionName = "AurelionSol",
-                        SpellName = "AurelionSolQ",
-                        Slot = SpellSlot.Q,
-                        Delay = 250,
-                        Range = 1500,
-                        Radius = 180,
-                        MissileSpeed = 850,
-                        DangerValue = 2,
-                        IsDangerous = false,
-                        MissileSpellName = "AurelionSolQ"
-                        
-                    }
-                },
-                new LinearMissileSkillshot
-                {
-                    SpellData = new SpellData
-                    {
-                        DisplayName = "AurelionSolR",
-                        ChampionName = "AurelionSol",
-                        SpellName = "AurelionSolR",
-                        Slot = SpellSlot.R,
-                        Delay = 300,
-                        Range 1420,
-                        Radius = 120,
-                        MissileSpeed = 4500,
-                        DangerValue = 3,
-                        IsDangerous = true,
-                        MissileSpellName = "AurelionSolR"
-                    }
-                },
-                new LinearMissileSkillshot
-                {
-                    SpellData = new SpellData
-                    {
                         DisplayName = "Blades of Torment",
                         ChampionName = "Aatrox",
                         SpellName = "AatroxE",
