@@ -322,23 +322,6 @@ namespace EvadePlus
                 {
                     SpellData = new SpellData
                     {
-                        DisplayName = "StarSurge",
-                        ChampionName = "AurelionSol",
-                        Spellname = "AurelionSolQ",
-                        Slot = SpellSlot.Q,
-                        Delay = 250,
-                        Range = 1500,
-                        Radius = 180,
-                        MissileSpeed = 850,
-                        DangerValue = 2,
-                        IsDangerous = false,
-                        MissileSpellName = "AurelionSolQMissile"
-                    }
-                },
-                new LinearMissileSkillshot
-                {
-                    SpellData = new SpellData
-                    {
                         DisplayName = "Sear",
                         ChampionName = "Brand",
                         SpellName = "BrandBlaze",
