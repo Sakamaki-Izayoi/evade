@@ -44,7 +44,7 @@ namespace Evade
                         SpellName = "TestSkillShot",
                         Slot = SpellSlot.R,
                         Type = SkillShotType.SkillshotCircle,
-                        Delay = 600,
+                        Delay = 0,
                         Range = 650,
                         Radius = 350,
                         MissileSpeed = int.MaxValue,
