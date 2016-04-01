@@ -3031,7 +3031,7 @@ namespace EvadePlus
                         DisplayName = "Deadly Bloom (passive)",
                         ChampionName = "Zyra",
                         SpellName = "zyrapassivedeathmanager",
-                        Slot = SpellSlot.E,
+                        Slot = SpellSlot.Internal,
                         Delay = 500,
                         Range = 1474,
                         Radius = 70,
