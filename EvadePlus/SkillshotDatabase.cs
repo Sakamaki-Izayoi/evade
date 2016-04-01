@@ -2605,21 +2605,23 @@ namespace EvadePlus
                         MissileSpellName = "VeigarDarkMatter"
                     }
                 },
-                //new CircularMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Veigar",
-                //        SpellName = "VeigarEventHorizon",
-                //        Slot = SpellSlot.E,
-                //        Delay = 500,
-                //        Range = 700,
-                //        Radius = 425,
-                //        MissileSpeed = 0,
-                //        DangerValue = 3,
-                //        MissileSpellName = "VeigarEventHorizon"
-                //    }
-                //},
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "VeigarEventHorizon",
+                        ChampionName = "Veigar",
+                        SpellName = "VeigarEventHorizon",
+                        Slot = SpellSlot.E,
+                        Delay = 500,
+                        Range = 700,
+                        Radius = 80,
+                        MissileSpeed = int.MaxValue,
+                        DangerValue = 3,
+                        IsDangerous = true,
+                        MissileSpellName = "VeigarEventHorizon"
+                    }
+                },
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
