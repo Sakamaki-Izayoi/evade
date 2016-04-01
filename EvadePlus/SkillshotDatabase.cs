@@ -21,7 +21,7 @@ namespace EvadePlus
                         ChampionName = "AllChampions",
                         SpellName = "summonersnowball",
                         Slot = SpellSlot.Summoner1,
-                        Delay = 1,
+                        Delay = 0,
                         Range = 1600,
                         Radius = 60,
                         MissileSpeed = 1300,
