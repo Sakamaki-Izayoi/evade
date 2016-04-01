@@ -62,7 +62,7 @@ namespace EvadePlus
                         MissileSpeed = 850,
                         DangerValue = 2,
                         IsDangerous = false,
-                        MissileSpellName = "AurelionSolQMissile"
+                        MissileSpellName = "AurelionSolQ"
                         
                     }
                 },
@@ -80,7 +80,7 @@ namespace EvadePlus
                         MissileSpeed = 4500,
                         DangerValue = 3,
                         IsDangerous = true,
-                        MissileSpellName = "AurelionSolRBeamMissile"
+                        MissileSpellName = "AurelionSolR"
                     }
                 },
                 new LinearMissileSkillshot
