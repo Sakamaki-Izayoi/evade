@@ -2616,7 +2616,7 @@ namespace EvadePlus
                         Delay = 500,
                         Range = 700,
                         Radius = 80,
-                        MissileSpeed = int.MaxValue,
+                        MissileSpeed = 0,
                         DangerValue = 3,
                         IsDangerous = true,
                         MissileSpellName = "VeigarEventHorizon"
