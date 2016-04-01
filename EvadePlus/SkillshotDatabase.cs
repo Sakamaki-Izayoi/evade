@@ -31,6 +31,8 @@ namespace EvadePlus
                         ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
                     }
                 },
+                #region Aatrox
+                
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -65,6 +67,11 @@ namespace EvadePlus
                         MissileSpellName = "AatroxE"
                     }
                 },
+                
+                #endregion Aatrox
+                
+                #region Ahri
+                
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -116,6 +123,9 @@ namespace EvadePlus
                         MissileSpellName = "AhriOrbofDeception2"
                     }
                 },
+                
+                #endregion Ahri
+                
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
