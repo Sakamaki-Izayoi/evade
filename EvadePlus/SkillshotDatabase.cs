@@ -305,6 +305,23 @@ namespace EvadePlus
                 {
                     SpellData = new SpellData
                     {
+                        DisplayName = "VoiceOfLight",
+                        ChampionName = "AurelionSol",
+                        SpellName = "Voice Of Light",
+                        Slot = SpellSlot.R,
+                        Delay = 300,
+                        Range = 1420,
+                        Radius = 120,
+                        MissileSpeed = 4500,
+                        DangerValue = 3,
+                        IsDangerous = true,
+                        MissileSpellName = "VoiceOfLightMissile"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
                         DisplayName = "Sear",
                         ChampionName = "Brand",
                         SpellName = "BrandBlaze",
