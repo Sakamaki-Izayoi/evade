@@ -2620,6 +2620,7 @@ namespace EvadePlus
                         DangerValue = 3,
                         IsDangerous = true,
                         MissileSpellName = "VeigarEventHorizon"
+                        ToggleParticleName = "Veiga_.+_E_tar_aoe_"
                     }
                 },
                 new CircularMissileSkillshot
