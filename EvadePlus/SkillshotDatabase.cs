@@ -325,7 +325,7 @@ namespace EvadePlus
                         DisplayName = "StarSurge",
                         ChampionName = "AurelionSol",
                         Spellname = "AurelionSolQ",
-                        Slot = SpellSlot.Q
+                        Slot = SpellSlot.Q,
                         Delay = 250,
                         Range = 1500,
                         Radius = 180,
@@ -334,7 +334,7 @@ namespace EvadePlus
                         IsDangerous = false,
                         MissileSpellName = "AurelionSolQMissile"
                     }
-                }
+                },
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
