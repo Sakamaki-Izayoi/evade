@@ -144,7 +144,7 @@ namespace EvadePlus
                         Delay = 750,
                         Range = 0,
                         Radius = 425 - 50,
-                        MissileSpeed = int.MaxValue,
+                        MissileSpeed = 0,
                         DangerValue = 3,
                         IsDangerous = false,
                         MissileSpellName = "DariusQ"
