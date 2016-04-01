@@ -140,7 +140,7 @@ namespace EvadePlus
                         DisplayName = "DariusCleave",
                         ChampionName = "Darius",
                         SpellName = "DariusQ",
-                        Slot = SpellSlt.Q,
+                        Slot = SpellSlot.Q,
                         Delay = 750,
                         Range = 0,
                         Radius = 425 - 50,
