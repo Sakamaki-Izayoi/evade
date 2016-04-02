@@ -1203,8 +1203,11 @@ namespace EvadePlus
                         MissileSpellName = "GragasR"
                     }
                 },
-                
+
                 #endregion Gragas
+
+                #region Graves
+
                 //new LinearMissileSkillshot
                 //{
                 //    SpellData = new SpellData
@@ -1238,6 +1241,11 @@ namespace EvadePlus
                         MissileSpellName = "GravesChargeShotShot"
                     }
                 },
+
+                #endregion Graves
+
+                #region Hecarim
+
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1255,6 +1263,10 @@ namespace EvadePlus
                         MissileSpellName = "HecarimUlt"
                     }
                 },
+
+                #endregion Hecarim
+
+                #region Heimerdinger
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1323,6 +1335,11 @@ namespace EvadePlus
                         MissileSpellName = "heimerdingerespell_ult"
                     }
                 },
+
+                #endregion Heimerdinger
+
+                #region Irelia
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1340,6 +1357,10 @@ namespace EvadePlus
                         MissileSpellName = "ireliatranscendentbladesspell"
                     }
                 },
+                #endregion Irelia
+
+                #region Janna
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1357,6 +1378,11 @@ namespace EvadePlus
                         MissileSpellName = "HowlingGaleSpell"
                     }
                 },
+
+                #endregion Janna
+
+                #region JarvanIV
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1406,6 +1432,11 @@ namespace EvadePlus
                 //        MissileSpellName = "JarvanIVCataclysm"
                 //    }
                 //},
+
+                #endregion JarvanIV
+
+                #region Jayce
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1440,6 +1471,10 @@ namespace EvadePlus
                         MissileSpellName = "JayceShockBlastMis"
                     }
                 },
+
+                #endregion Jayce
+
+                #region Jinx
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1474,6 +1509,11 @@ namespace EvadePlus
                         MissileSpellName = "JinxWMissile"
                     }
                 },
+
+                #endregion Jinx
+
+                #region Kalista
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1491,6 +1531,11 @@ namespace EvadePlus
                         MissileSpellName = "kalistamysticshotmistrue"
                     }
                 },
+
+                #endregion Kalista
+
+                #region Karma
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1525,6 +1570,11 @@ namespace EvadePlus
                         MissileSpellName = "KarmaQMissileMantra"
                     }
                 },
+
+                #endregion Karma
+
+                #region Karthus
+
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1542,6 +1592,11 @@ namespace EvadePlus
                         MissileSpellName = "KarthusLayWasteA1"
                     }
                 },
+
+                #endregion Karthus
+
+                #region Kassadin
+
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1574,6 +1629,11 @@ namespace EvadePlus
                 //        MissileSpellName = "ForcePulse"
                 //    }
                 //},
+
+                #endregion Kassadin
+
+                #region Kennen
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1591,6 +1651,11 @@ namespace EvadePlus
                         MissileSpellName = "KennenShurikenHurlMissile1"
                     }
                 },
+
+                #endregion Kennen
+
+                #region Khazix
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1626,6 +1691,10 @@ namespace EvadePlus
                         MissileSpellName = "khazixwlong"
                     }
                 },
+
+                #endregion Khazix
+
+                #region KogMaw
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1677,6 +1746,10 @@ namespace EvadePlus
                         MissileSpellName = "KogMawLivingArtillery"
                     }
                 },
+
+                #endregion KogMaw
+
+                #region Leblanc
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1745,6 +1818,11 @@ namespace EvadePlus
                         MissileSpellName = "LeblancSlide"
                     }
                 },
+
+                #endregion Leblanc
+
+                #region Leesin
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1762,6 +1840,9 @@ namespace EvadePlus
                         MissileSpellName = "BlindMonkQOne"
                     }
                 },
+
+                #endregion Leesin
+
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
