@@ -1843,6 +1843,8 @@ namespace EvadePlus
 
                 #endregion Leesin
 
+                #region Leona
+
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1877,6 +1879,10 @@ namespace EvadePlus
                         MissileSpellName = "FlashFrostSpell"
                     }
                 },
+
+                #endregion Leona
+
+                #region Lissandra
                 //new CircularMissileSkillshot
                 //{
                 //    SpellData = new SpellData
@@ -1909,6 +1915,11 @@ namespace EvadePlus
                         MissileSpellName = "LissandraQ"
                     }
                 },
+
+                #endregion Lissandra
+
+                #region Lucian
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1961,6 +1972,11 @@ namespace EvadePlus
                         MissileSpellName = "LuluQMissile"
                     }
                 },
+
+                #endregion Lucian
+
+                #region Lulu
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1978,6 +1994,11 @@ namespace EvadePlus
                         MissileSpellName = "LuluQMissileTwo"
                     }
                 },
+
+                #endregion Lulu
+
+                #region Lux
+
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2030,6 +2051,11 @@ namespace EvadePlus
                         MissileSpellName = "LuxLightBindingMis"
                     }
                 },
+
+                #endregion Lux
+
+                #region Malphite
+
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2047,6 +2073,11 @@ namespace EvadePlus
                         MissileSpellName = "UFSlash"
                     }
                 },
+
+                #endregion Malphite
+
+                #region Malzahar
+
                 //new LinearMissileSkillshot
                 //{
                 //    SpellData = new SpellData
@@ -2062,6 +2093,11 @@ namespace EvadePlus
                 //        MissileSpellName = "AlZaharCalloftheVoidMissile"
                 //    }
                 //},
+
+                #endregion Malzahar
+
+                #region MonkeyKing
+
                 //new CircularMissileSkillshot
                 //{
                 //    SpellData = new SpellData
@@ -2077,6 +2113,11 @@ namespace EvadePlus
                 //        MissileSpellName = "MonkeyKingSpinToWin"
                 //    }
                 //},
+
+                #endregion MonkeyKing
+
+                #region Morgana
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2094,6 +2135,10 @@ namespace EvadePlus
                         MissileSpellName = "DarkBindingMissile"
                     }
                 },
+
+                #endregion Morgana
+
+                #region Nami
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2128,6 +2173,11 @@ namespace EvadePlus
                         MissileSpellName = "NamiRMissile"
                     }
                 },
+
+                #endregion Nami
+
+                #region Nautilus
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2145,6 +2195,11 @@ namespace EvadePlus
                         MissileSpellName = "NautilusAnchorDragMissile"
                     }
                 },
+
+                #endregion Nautilus
+
+                #region Nidalee
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2162,6 +2217,11 @@ namespace EvadePlus
                         MissileSpellName = "JavelinToss"
                     }
                 },
+
+                #endregion Nidalee
+
+                #region Nocturne
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2179,6 +2239,11 @@ namespace EvadePlus
                         MissileSpellName = "NocturneDuskbringer"
                     }
                 },
+
+                #endregion Nocturne
+
+                #region Olaf
+
                 //new LinearMissileSkillshot
                 //{
                 //    SpellData = new SpellData
@@ -2194,6 +2259,11 @@ namespace EvadePlus
                 //        MissileSpellName = "OlafAxeThrowCast"
                 //    }
                 //},
+
+                #endregion Olaf
+
+                #region Orianna
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2245,6 +2315,11 @@ namespace EvadePlus
                         MissileSpellName = "OrianaDissonanceCommand"
                     }
                 },
+
+                #endregion Orianna
+
+                #region Pantheon
+
                 //new CircularMissileSkillshot
                 //{
                 //    SpellData = new SpellData
@@ -2260,6 +2335,9 @@ namespace EvadePlus
                 //        MissileSpellName = "PantheonE"
                 //    }
                 //},
+
+                #endregion Pantheon
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
