@@ -659,7 +659,7 @@ namespace EvadePlus
                         SpellName = "DariusQ",
                         Slot = SpellSlot.Q,
                         Delay = 750,
-                        Range = 0,
+                        Range = 425,
                         Radius = 425,
                         MissileSpeed = 0,
                         DangerValue = 3,
