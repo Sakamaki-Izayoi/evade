@@ -660,7 +660,7 @@ namespace EvadePlus
                         Slot = SpellSlot.Q,
                         Delay = 750,
                         Range = 0,
-                        Radius = 425 - 50,
+                        Radius = 425,
                         MissileSpeed = 0,
                         DangerValue = 3,
                         IsDangerous = false,
