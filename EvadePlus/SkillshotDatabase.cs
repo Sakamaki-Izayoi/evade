@@ -947,6 +947,7 @@ namespace EvadePlus
                 #endregion Fiora
 
                 #region Fizz
+                
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -964,9 +965,11 @@ namespace EvadePlus
                         MissileSpellName = "FizzMarinerDoomMissile"
                     }
                 },
+                
                 #endregion Fizz
 
                 #region Galio
+                
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1144,9 +1147,10 @@ namespace EvadePlus
                     }
                 },
 
-                #endregion
+                #endregion Gnar
 
-                #region Gragas Q
+                #region Gragas
+                
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -1199,6 +1203,8 @@ namespace EvadePlus
                         MissileSpellName = "GragasR"
                     }
                 },
+                
+                #endregion Gragas
                 //new LinearMissileSkillshot
                 //{
                 //    SpellData = new SpellData
