@@ -1474,6 +1474,45 @@ namespace EvadePlus
 
                 #endregion Jayce
 
+                #region Jhin
+
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "Deadly Flourish",
+                        ChampionName = "Jhin",
+                        SpellName = "JhinW",
+                        Slot = SpellSlot.W,
+                        Delay = 250,
+                        Range = 3000,
+                        Radius = 40,
+                        MissileSpeed = 5000,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "JhinWMissile"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "Curtain Call",
+                        ChampionName = "Jhin",
+                        SpellName = "JhinRShot",
+                        Slot = SpellSlot.R,
+                        Delay = 250,
+                        Range = 3500,
+                        Radius = 80,
+                        MissileSpeed = 5000,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "JhinRShotMis"
+                    }
+                },
+
+                #endregion Jhin
+
                 #region Jinx
                 new LinearMissileSkillshot
                 {
@@ -2338,6 +2377,8 @@ namespace EvadePlus
 
                 #endregion Pantheon
 
+                #region Quinn
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2355,6 +2396,11 @@ namespace EvadePlus
                         MissileSpellName = "QuinnQMissile"
                     }
                 },
+
+                #endregion Quinn
+
+                #region RekSai
+
                 //new LinearMissileSkillshot
                 //{
                 //    SpellData = new SpellData
@@ -2370,6 +2416,11 @@ namespace EvadePlus
                 //        MissileSpellName = "RekSaiQBurrowedMis"
                 //    }
                 //},
+
+                #endregion RekSai
+
+                #region Rengar
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2387,6 +2438,11 @@ namespace EvadePlus
                         MissileSpellName = "RengarEFinal"
                     }
                 },
+
+                #endregion Rengar
+
+                #region Riven
+
                 //new LinearMissileSkillshot
                 //{
                 //    SpellData = new SpellData
@@ -2419,6 +2475,11 @@ namespace EvadePlus
                         MissileSpellName = "RivenMartyr"
                     }
                 },
+
+                #endregion Riven
+
+                #region Rumble
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2436,6 +2497,11 @@ namespace EvadePlus
                         MissileSpellName = "RumbleGrenade"
                     }
                 },
+
+                #endregion Rumble
+
+                #region Ryze
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2453,6 +2519,11 @@ namespace EvadePlus
                         MissileSpellName = "RyzeQ"
                     }
                 },
+
+                #endregion Ryze
+
+                #region Sejuani
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2487,6 +2558,11 @@ namespace EvadePlus
                         MissileSpellName = "SejuaniGlacialPrison"
                     }
                 },
+
+                #endregion Sejuani
+
+                #region Shen
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2504,6 +2580,11 @@ namespace EvadePlus
                         MissileSpellName = "ShenShadowDash"
                     }
                 },
+
+                #endregion Shen
+
+                #region Shyvana
+
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2538,6 +2619,8 @@ namespace EvadePlus
                         MissileSpellName = "ShyvanaTransformCast"
                     }
                 },
+
+                #endregion Shyvana
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -3482,40 +3565,8 @@ namespace EvadePlus
                         MissileSpellName = "PoppyQ"
                     }
                 },
-                new LinearMissileSkillshot
-                {
-                    SpellData = new SpellData
-                    {
-                        DisplayName = "Deadly Flourish",
-                        ChampionName = "Jhin",
-                        SpellName = "JhinW",
-                        Slot = SpellSlot.W,
-                        Delay = 250,
-                        Range = 3000,
-                        Radius = 40,
-                        MissileSpeed = 5000,
-                        DangerValue = 2,
-                        IsDangerous = false,
-                        MissileSpellName = "JhinWMissile"
-                    }
-                },
-                new LinearMissileSkillshot
-                {
-                    SpellData = new SpellData
-                    {
-                        DisplayName = "Curtain Call",
-                        ChampionName = "Jhin",
-                        SpellName = "JhinRShot",
-                        Slot = SpellSlot.R,
-                        Delay = 250,
-                        Range = 3500,
-                        Radius = 80,
-                        MissileSpeed = 5000,
-                        DangerValue = 2,
-                        IsDangerous = false,
-                        MissileSpellName = "JhinRShotMis"
-                    }
-                },
+
+                
             };
         }
     }
