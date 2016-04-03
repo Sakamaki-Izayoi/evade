@@ -1998,6 +1998,28 @@ namespace EvadePlus
                 {
                     SpellData = new SpellData
                     {
+                        DisplayName = "LucianRMis",
+                        ChampionName = "Lucian",
+                        SpellName = "LucianRmis",
+                        Slot = SpellSlot.R,
+                        Delay = 500,
+                        Range = 1400,
+                        Radius = 110,
+                        MissileSpeed = 2800,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "LucianRMis",
+                    }
+                },
+                
+                #endregion Lucian
+                
+                #region Lulu
+                
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
                         DisplayName = "Glitterlance",
                         ChampionName = "Lulu",
                         SpellName = "LuluQ",
@@ -2011,11 +2033,6 @@ namespace EvadePlus
                         MissileSpellName = "LuluQMissile"
                     }
                 },
-
-                #endregion Lucian
-
-                #region Lulu
-
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
