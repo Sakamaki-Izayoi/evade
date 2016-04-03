@@ -44,7 +44,7 @@ namespace Evade
                         SpellName = "TestSkillShot",
                         Slot = SpellSlot.R,
                         Type = SkillShotType.SkillshotCircle,
-                        Delay = 0,
+                        Delay = 600,
                         Range = 650,
                         Radius = 350,
                         MissileSpeed = int.MaxValue,
@@ -97,6 +97,28 @@ namespace Evade
                 });
 
             #endregion Aatrox
+            
+            #region Alistar
+            
+            Spell.Add(
+                new SpellData
+                {
+                    ChampionName = "Alistar",
+                    SpellName = "Pulverize",
+                    Slot = SpellSlot.Q,
+                    Type = SkillShotType.SkillshotCircle,
+                    Delay = 50,
+                    Range = 365,
+                    Radius = 365,
+                    MissileSpeed = int.MaxValue,
+                    FixedRange = true,
+                    AddHitbox = true,
+                    DangerValue = 2,
+                    IsDangerous = true,
+                    MissileSpellName = "",
+                });
+                
+                #endregion Alistar
 
             #region Ahri
 
