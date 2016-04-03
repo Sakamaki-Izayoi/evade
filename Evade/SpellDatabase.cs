@@ -173,6 +173,28 @@ namespace Evade
                 });
 
             #endregion Ahri
+            
+            #region Alistar
+
+            Spells.Add(
+                new SpellData
+                {
+                    ChampionName = "Alistar",
+                    SpellName = "Pulverize",
+                    Slot = SpellSlot.Q,
+                    Type = SkillShotType.SkillshotCircle,
+                    Delay = 50,
+                    Range = 365,
+                    Radius = 365,
+                    MissileSpeed = int.MaxValue,
+                    FixedRange = false,
+                    AddHitbox = true,
+                    DangerValue = 2,
+                    IsDangerous = true,
+                    MissileSpellName = "",
+                });
+
+            #endregion Alistar
 
             #region Amumu
 
