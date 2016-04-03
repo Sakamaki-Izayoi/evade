@@ -191,7 +191,7 @@ namespace Evade
                     AddHitbox = true,
                     DangerValue = 2,
                     IsDangerous = true,
-                    MissileSpellName = "",
+                    MissileSpellName = "AlistarQ",
                 });
 
             #endregion Alistar
