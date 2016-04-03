@@ -180,7 +180,7 @@ namespace Evade
                 new SpellData
                 {
                     ChampionName = "Alistar",
-                    SpellName = "Pulverize",
+                    SpellName = "Pulverize-AlistarQ",
                     Slot = SpellSlot.Q,
                     Type = SkillShotType.SkillshotCircle,
                     Delay = 50,
@@ -191,7 +191,7 @@ namespace Evade
                     AddHitbox = true,
                     DangerValue = 2,
                     IsDangerous = true,
-                    MissileSpellName = "AlistarQ",
+                    MissileSpellName = "",
                 });
 
             #endregion Alistar
